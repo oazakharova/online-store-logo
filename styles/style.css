@@ -82,6 +82,7 @@ body {
             align-items: center;
     font-size: 14px;
     font-style: normal;
+    text-transform: uppercase;
   }
 }
 
@@ -202,6 +203,10 @@ body {
   color: #ffffff;
 }
 
+.nav-ul__a_grey-font {
+  color: #565656;
+}
+
 .nav-ul__a_uppercase {
   text-transform: uppercase;
 }
@@ -225,4 +230,5 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 /*# sourceMappingURL=style.css.map */

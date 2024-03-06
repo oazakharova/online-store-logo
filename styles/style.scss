@@ -70,6 +70,7 @@ body {
     align-items: center;
     font-size: 14px;
     font-style: normal;
+    text-transform: uppercase;
   }
 }
 
@@ -179,6 +180,10 @@ body {
   color: $mainWhiteColor;
 }
 
+.nav-ul__a_grey-font {
+  color: $mainGreyColor;
+}
+
 .nav-ul__a_uppercase {
   text-transform: uppercase;
 }
@@ -194,5 +199,18 @@ body {
   .nav-ul_grid4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+//main
+
+//main__nav-product-types
+.main__nav-product-types {
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
