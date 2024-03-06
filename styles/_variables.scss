@@ -11,4 +11,19 @@ $mainDarkColor: #1d1d1d;
 $mainGreyColor: #565656;
 $mainWhiteColor: #ffffff;
 $salesRedColor: #ed1331;
+$yellowColor: #fff500;
+
 $buttonPadding: 10px;
+
+$borderRadius10: 10px;
+$borderRadius20: 20px;
+
+//mixins
+@mixin button($_color, $_backgroundColor, $_fontSize, $_padding) {
+  color: $_color;
+  background-color: $_backgroundColor;
+  font-size: $_fontSize;
+  padding: $_padding;
+  border: 1px solid $_backgroundColor;
+  border-radius: $borderRadius10;
+}
