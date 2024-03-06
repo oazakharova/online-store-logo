@@ -1,7 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.salesRedBackground {
+  background-color: #ed1331;
+  border: 1px solid #ed1331;
+  border-radius: 20px;
+}
+
+.header-info {
+  text-align: center;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 21px 23px;
+}
+@media (min-width: 768px) {
+  .header-info {
+    font-size: 14px;
+  }
+}
+
+.header {
+  background-color: #1d1d1d;
+}
+
+.header__container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 1024px) {
+  .header__container {
+    grid-template-columns: 25% 50% 25%;
+  }
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .header__location {
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    font-style: normal;
+  }
+}
+
+.header__location-icon {
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.header__nav-icon {
+  padding: 10px;
+  padding-left: 0;
+}
+@media (min-width: 1024px) {
+  .header__nav-icon {
+    display: none;
+  }
+}
+
+.header__logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .header__logo-wrap {
+    margin-right: 20px;
+  }
+}
+
+.logo {
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__logo i {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header__user-choise-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__search-form {
+  position: relative;
+  margin: 0 auto;
+}
+
+.header__search-input {
+  height: 100%;
+  width: 0;
+  padding: 0 24px 0 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  -webkit-transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+  transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header__search-input:focus {
+  width: 200px;
+  z-index: 1;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #1d1d1d;
+}
+@media (min-width: 768px) {
+  .header__search-input:focus {
+    width: 300px;
+  }
+}
+
+.header__search-button {
+  border: none;
+  background: none;
+}
+
+.header__search-icon {
+  font-size: 16px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.nav-ul {
+  list-style: none;
+}
+
+.nav-ul__li {
+  display: inline;
+  text-align: center;
+}
+
+.salesRedBackground.nav-ul__a {
+  padding: 10px 20px;
+}
+
+.nav-ul__a {
+  padding: 10px;
+}
+
+.nav-ul__a_white-font {
+  color: #ffffff;
+}
+
+.nav-ul__a_uppercase {
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .header__main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-template-rows: 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .nav-ul_grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 /*# sourceMappingURL=style.css.map */
