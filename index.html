@@ -13,15 +13,67 @@
 </head>
 
 <body>
-  <header>
-    <div class="container"></div>
+  <div class="header-info">
+    Lorem ipsum is placeholder text commonly used -20%
+  </div>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__menu">
+        <i class="fa-solid fa-bars header__nav-icon"></i>
+        <div class="header__logo-wrap">
+          <a href="index.html" class="logo header__logo">logo</a>
+        </div>
+        <address class="header__location hidden">
+          <i class="fa-solid fa-location-dot header__location-icon"></i> МОСКВА
+        </address>
+      </div>
+      <nav class="header__main-nav hidden">
+        <ul class="nav-ul nav-ul_grid4">
+          <li class="nav-ul__li nav-ul__li_margins">
+            <a class="link nav-ul__a nav-ul__a_white-font nav-ul__a_uppercase salesRedBackground" href="#">sale</a>
+          </li>
+          <li class="nav-ul__li">
+            <a class="link nav-ul__a nav-ul__a_white-font nav-ul__a_uppercase" href="#">женщинам</a>
+          </li>
+          <li class="nav-ul__li">
+            <a class="link nav-ul__a nav-ul__a_white-font nav-ul__a_uppercase" href="#">мужчинам</a>
+          </li>
+          <li class="nav-ul__li">
+            <a class="link nav-ul__a nav-ul__a_white-font nav-ul__a_uppercase" href="#">детям</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__user-choise-wrap">
+        <div class="search header__search">
+          <form class="header__search-form" action="" method="get">
+            <input class="header__search-input" name="s" placeholder="Поиск по сайту..." type="search">
+            <button class="header__search-button" type="submit">
+              <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+            </button>
+          </form>
+        </div>
+        <nav class="header__user-choice">
+          <ul class="nav-ul">
+            <li class="nav-ul__li"><a class="link nav-ul__a nav-ul__a_white-font" href="#"><i
+                  class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-ul__li"><a class="link hidden nav-ul__a nav-ul__a_white-font" href="#"><i
+                  class="fa-regular fa-heart "></i></a>
+            </li>
+            <li class="nav-ul__li"><a class="link nav-ul__a nav-ul__a_white-font" href="#"><i
+                  class="fa-solid fa-bag-shopping"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <main>
+  <main class="main">
     <div class="container"></div>
   </main>
 
-  <footer>
+  <footer class="footer">
     <div class="container"></div>
   </footer>
 </body>
