@@ -735,4 +735,10 @@ body {
   border-radius: 10px;
 }
 
+.actual-products .popular-section__title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */

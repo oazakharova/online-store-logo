@@ -600,3 +600,12 @@ body {
 .popular-section__button-to-cart {
   @include button($mainDarkColor, $mainWhiteColor, 14px, 0);
 }
+
+// actual-products
+.actual-products .popular-section__title {
+  align-self: flex-start;
+  margin-bottom: 60px;
+}
+
+.actual-products .new-products__img {
+}
