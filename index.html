@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   <script src="app.js" defer></script>
   <title>Title</title>
@@ -159,7 +161,341 @@
               </a>
             </article>
           </div>
-          <div class="indicator-TO-RENAME">---</div>
+          <div class="pagination new-products__pagination">
+            <ul>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a class="is-active" href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="popular-section">
+        <div class="popular-section__description">
+          <h2 class="popular-section__title">популярное</h2>
+          <button class="button-to-catalog popular-section__button-to-catalog">
+            <p>в каталог</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide popular-section__swiper-slide">
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-2.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-slide popular-section__swiper-slide">
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-2.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class=" fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class=" fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-slide popular-section__swiper-slide">
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-2.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class=" fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+              <article class="popular-section__product">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+              <article class="popular-section__product popular-section__product_desktop">
+                <a class="link popular-section__product-img-link" href="#">
+                  <img class="popular-section__swiper-img img" src="images/new-products/new-product__mobile-3.png"
+                    alt="product">
+                </a>
+                <div class="popular-section__product-description">
+                  <div class="popular-section__product-info">
+                    <div class="popular-section__product-price-wrap">
+                      <p class="popular-section__product-price">3990</p>
+                      <p>₽</p>
+                    </div>
+                    <a class="link popular-section__brand-link" href="#">
+                      <h5 class="popular-section__brand-name">Stone Island</h5>
+                    </a>
+                    <a class="link popular-section__product-link" href="#">
+                      <h4 class="popular-section__product-name">Зип худи с капюшоном</h4>
+                    </a>
+                  </div>
+                  <button class="popular-section__button-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="pagination new-products__pagination">
+            <ul>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a class="is-active" href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </section>
 

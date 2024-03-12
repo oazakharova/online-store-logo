@@ -485,8 +485,118 @@ body {
   }
 }
 
-.indicator-TO-RENAME {
-  position: absolute;
-  bottom: 0;
-  left: 700px;
+// pagination
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 10px 18px;
+  width: 15px;
+  height: 3px;
+  padding: 0;
+  margin: auto 5px;
+  background-color: rgba($mainGreyColor, 0.8);
+  border-radius: 3px;
+}
+
+.pagination .is-active {
+  background-color: $mainDarkColor;
+}
+
+.new-products__pagination {
+  text-align: center;
+  margin-top: 20px;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    bottom: 0;
+    left: 410px;
+    text-align: start;
+  }
+}
+
+// swiper
+.swiper {
+  width: 100%;
+  height: 463px;
+}
+
+.popular-section__product_desktop {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.popular-section__product-img-link {
+  width: 140px;
+  max-width: 163px;
+  height: 258px;
+
+  @media (min-width: 1024px) {
+    width: 300px;
+    height: 463px;
+  }
+}
+
+.popular-section__swiper-img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+// popular-section
+.popular-section__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-section__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: $mainDarkColor;
+  text-transform: uppercase;
+}
+
+.popular-section__product-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.popular-section__button-to-catalog {
+  @include button($mainDarkColor, $mainWhiteColor, 14px, $buttonPadding);
+}
+
+.popular-section__swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.popular-section__product-price-wrap {
+  display: flex;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.popular-section__brand-link,
+.popular-section__product-link {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.popular-section__button-to-cart {
+  @include button($mainDarkColor, $mainWhiteColor, 14px, 0);
 }
