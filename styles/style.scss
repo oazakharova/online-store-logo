@@ -609,3 +609,72 @@ body {
 
 .actual-products .new-products__img {
 }
+
+// describe-socials-wrap
+
+// describe-socials-wrap
+.describe-socials-wrap {
+  background-color: #ff4003;
+}
+
+.describe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: $mainWhiteColor;
+  font-weight: 600;
+  font-size: 30px;
+
+  @media (max-width: 767px) {
+    background-color: $yellowDescribeBackground;
+  }
+
+  @media (min-width: 450px) {
+    font-size: 40px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.describe-section__title {
+  text-align: center;
+
+  @media (max-width: 767px) {
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+}
+
+.describe-section__email {
+  border-radius: $borderRadius20;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  background-color: $mainWhiteColor;
+  border: 1px solid $mainWhiteColor;
+
+  @media (max-width: 767px) {
+    width: 343px;
+    margin-bottom: 20px;
+  }
+}
+
+.describe-section__subscribe-button {
+  @include button($mainWhiteColor, $mainDarkColor, 14px, 18px);
+  border-radius: $borderRadius20;
+
+  @media (max-width: 767px) {
+    width: 343px;
+    margin-bottom: 45px;
+  }
+}
+
+.socials-section {
+  @media (max-width: 767px) {
+    background-color: #7002fe;
+  }
+}
