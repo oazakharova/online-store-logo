@@ -921,4 +921,71 @@ body {
   height: 100%;
 }
 
+.footer {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1d1d1d;
+}
+
+.footer__nav {
+  margin: 45px auto;
+}
+@media (min-width: 767px) {
+  .footer__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.footer__nav-li {
+  display: block;
+  margin-bottom: 10x;
+  padding: 5px 10px;
+}
+
+.footer__a-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer__a {
+  display: block;
+}
+
+.salesColor {
+  color: #ed1331;
+}
+
+.footer__payment-systems-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__payment-systems-logo:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hr-line {
+  color: #dbdbdb;
+}
+
+.copyright-info {
+  text-align: center;
+  margin: 25px auto;
+  font-weight: 500;
+  font-size: 13px;
+  color: #1d1d1d;
+}
+
 /*# sourceMappingURL=style.css.map */
