@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="styles/style.css">
-  <script src="app.js" defer></script>
+  <script src="js/form.js" defer></script>
+  <script src="js/app.js" defer></script>
   <title>Title</title>
 </head>
 
@@ -859,21 +860,38 @@
       <section class="describe-section">
         <div class="container">
           <h2 class="describe-section__title">
-            <div>Скидка 10%</div>
-            <div>на подписку</div>
+            Скидка 10% на подписку
           </h2>
           <form action="/apply/" method="POST" name="describe-form" class="describe-form">
             <input class="describe-section__email" type="email" name="email" id="email" placeholder="Ваш E-mail"
               required="">
-            <button class="describe-section__subscribe-button" type="submit">подписаться</button>
+            <button class="describe-section__subscribe-button" type="submit">Подписаться</button>
             <div class="form-loader hidden">Отправляем...</div>
           </form>
         </div>
       </section>
 
       <section class="socials-section">
+        <div class="container">
+          <div class="socials-section__title">Подпишись на Street Beat в социальных сетях, чтобы не пропустить
+            свежие новости и посты о наших магазинах,
+            а также о приглашениях, распрадажах и мероприятиях.</div>
+          <div class="socials-section__socials-wrap socials-wrap">
+            <a class="link" href="#">
+              <img class="social-logo socials-wrap__social-logo" src="images/VK_white.png" alt="social logo">
+            </a>
+            <a class="link" href="#">
+              <img class="social-logo socials-wrap__social-logo" src="images/Telegram_white.png" alt="social logo">
+            </a>
+            <a class="link" href="#">
+              <img class="social-logo socials-wrap__social-logo" src="images/Youtube_white.png" alt="social logo">
+            </a>
+          </div>
+        </div>
       </section>
     </div>
+
+
   </main>
 
   <footer class="footer">
