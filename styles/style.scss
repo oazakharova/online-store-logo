@@ -611,3 +611,151 @@ body {
 // }
 
 // describe-socials-wrap
+.describe-socials-wrap {
+  background-color: $redDescribeBackground;
+  color: $mainWhiteColor;
+
+  @media (min-width: 1024px) {
+    display: flex;
+  }
+}
+
+// describe-section
+.describe-section,
+.socials-section {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+
+    @media (min-width: 1024px) {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 66px 0;
+    }
+  }
+}
+
+.describe-section {
+  background-color: $yellowDescribeBackground;
+
+  @media (min-width: 1024px) {
+    background: none;
+    width: 70%;
+    margin-left: 5vw;
+  }
+}
+
+.describe-section__title {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  max-width: 245px;
+  margin-bottom: 20px;
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: start;
+    display: inline;
+  }
+}
+
+.describe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+
+.describe-section__email {
+  font-weight: 400;
+  font-size: 14px;
+  color: $mainDarkColor;
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  border-radius: $borderRadius20;
+  margin-bottom: 20px;
+
+  @media (min-width: 350px) {
+    width: 250px;
+    margin-bottom: 0;
+  }
+}
+
+.describe-section__subscribe-button {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: $borderRadius20;
+  border: none;
+  background-color: $mainDarkColor;
+  color: inherit;
+  font-weight: 600;
+  font-size: 14px;
+
+  width: 100%;
+
+  @media (min-width: 350px) {
+    width: 200px;
+    margin-left: -25px;
+  }
+}
+
+//
+// socials-section
+.socials-section {
+  background-color: $indigoDescribeBackground;
+
+  @media (min-width: 1024px) {
+    background: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-right: 5vw;
+  }
+
+  .container {
+    @media (min-width: 1024px) {
+      width: 100%;
+      padding-left: 50px;
+    }
+  }
+}
+
+.socials-section__title {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 343px;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.socials-section__socials-wrap {
+  display: flex;
+
+  .link {
+    width: 38px;
+    height: 38px;
+  }
+
+  .link:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.socials-wrap__social-logo {
+  width: 100%;
+  height: 100%;
+}
