@@ -15,6 +15,11 @@ body {
     );
 }
 
+html,
+body {
+  min-height: 100vh;
+}
+
 .container {
   width: 90vw;
   margin: 0 auto;
