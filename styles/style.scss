@@ -632,7 +632,6 @@ body {
     @media (min-width: 1024px) {
       width: 100%;
       flex-direction: row;
-      justify-content: space-between;
       padding: 66px 0;
     }
   }
@@ -657,6 +656,7 @@ body {
 
   @media (min-width: 1024px) {
     font-size: 20px;
+    margin-right: 50px;
     margin-bottom: 0;
     text-align: start;
     display: inline;
