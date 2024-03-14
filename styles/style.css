@@ -11,6 +11,11 @@ body {
           box-sizing: border-box;
 }
 
+body {
+  display: grid;
+  grid-template-rows: minmax(50px, auto) minmax(50px, auto) 1fr minmax(50px, auto);
+}
+
 .container {
   width: 90vw;
   margin: 0 auto;
