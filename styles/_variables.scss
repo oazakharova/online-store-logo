@@ -1,4 +1,4 @@
-//font
+// font
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
 
 %RobotoFont {
@@ -21,7 +21,7 @@ $buttonPadding: 10px;
 $borderRadius10: 10px;
 $borderRadius20: 20px;
 
-//mixins
+// mixins
 @mixin button($_color, $_backgroundColor, $_fontSize, $_padding) {
   color: $_color;
   background-color: $_backgroundColor;
@@ -30,3 +30,7 @@ $borderRadius20: 20px;
   border: 1px solid $_backgroundColor;
   border-radius: $borderRadius10;
 }
+
+// animation
+$transitionDuration: 0.5s;
+$transformScale: scale(1.1, 1.1);

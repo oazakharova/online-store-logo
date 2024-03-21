@@ -855,6 +855,10 @@ body {
 @media (min-width: 350px) {
   .describe-section__email {
     width: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .describe-section__email {
     margin-bottom: 0;
   }
 }
@@ -872,7 +876,11 @@ body {
 }
 @media (min-width: 350px) {
   .describe-section__subscribe-button {
-    width: 200px;
+    width: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .describe-section__subscribe-button {
     margin-left: -25px;
   }
 }
